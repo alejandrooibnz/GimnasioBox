@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "nombre": "Clases de Boxeo",
+      "descripcion": "Entrenamiento para todos los niveles.",
+      "precio": 30,
+      "imagen": "assets/clase-boxeo.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Guantes Profesionales",
+      "descripcion": "Guantes de cuero de alta calidad.",
+      "precio": 60,
+      "imagen": "assets/guantes.jpg"
+    }
+  ]
