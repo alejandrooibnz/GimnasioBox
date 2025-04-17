@@ -12,5 +12,26 @@
       "descripcion": "Guantes de cuero de alta calidad.",
       "precio": 60,
       "imagen": "assets/guantes.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Saco de Boxeo",
+      "descripcion": "Saco de boxeo pesado para entrenamiento en casa.",
+      "precio": 120,
+      "imagen": "assets/images/saco.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Camiseta de Boxeo",
+      "descripcion": "Camiseta de boxeo con material transpirable.",
+      "precio": 25,
+      "imagen": "assets/images/camiseta.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Botellas de Agua",
+      "descripcion": "Botellas de agua personalizadas para entrenamientos.",
+      "precio": 10,
+      "imagen": "assets/images/botella.jpg"
     }
   ]
