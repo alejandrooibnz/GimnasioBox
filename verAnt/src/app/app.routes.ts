@@ -17,6 +17,6 @@ export const routes: Routes = [
   { path: 'pago', component: PagoComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'about-us', component: AboutUsComponent },
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   // { path: '**', redirectTo: '' },
 ];
