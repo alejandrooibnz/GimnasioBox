@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Guantes de Boxeo",
+    "descripcion": "Guantes profesionales de cuero para entrenamiento.",
+    "precio": 49.99,
+    "imagen": "assets/img/guantes.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Saco de Boxeo",
+    "descripcion": "Saco resistente ideal para prácticas intensas.",
+    "precio": 120.00,
+    "imagen": "assets/img/saco.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Vendas de Boxeo",
+    "descripcion": "Vendas elásticas para protección.",
+    "precio": 9.99,
+    "imagen": "assets/img/vendas.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Protector Bucal",
+    "descripcion": "Protección dental de alta calidad.",
+    "precio": 15.00,
+    "imagen": "assets/img/protector.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Casco de Entrenamiento",
+    "descripcion": "Casco acolchado para sparring.",
+    "precio": 65.00,
+    "imagen": "assets/img/casco.jpg"
+  }
+]
