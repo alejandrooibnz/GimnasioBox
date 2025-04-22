@@ -9,7 +9,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'catalogo', component: CatalogoComponent },
@@ -17,5 +17,6 @@ export const routes: Routes = [
   { path: 'pago', component: PagoComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'about-us', component: AboutUsComponent },
-  { path: '**', redirectTo: '' },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  // { path: '**', redirectTo: '' },
 ];
