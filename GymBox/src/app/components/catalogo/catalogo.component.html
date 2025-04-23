@@ -1,1 +1,170 @@
-<p>catalogo works!</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo - PowerGym</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #000;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    .section-title {
+      color: #000;
+      border-left: 8px solid #000;
+      padding-left: 12px;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .btn-dark {
+      background-color: #000;
+      border-color: #000;
+    }
+
+    .btn-dark:hover {
+      background-color: #333;
+      border-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container py-5">
+    <h2 class="section-title">Catálogo PowerGym</h2>
+    <p class="mb-4">Aquí encontrarás nuestros productos, servicios y clases disponibles. ¡Todo lo que necesitas para entrenar al máximo nivel!</p>
+    
+    <div class="row g-4">
+      <!-- Producto 1 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1612817158784-b84c2ed4db31" class="card-img-top" alt="Guantes de boxeo">
+          <div class="card-body">
+            <h5 class="card-title">Guantes Pro</h5>
+            <p class="card-text">Guantes de alta calidad, ideales para entrenamientos intensos y sparring. Talla M y L.</p>
+            <p class="fw-bold">€39.99</p>
+            <a href="#" class="btn btn-dark">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1584467735871-987b0e74d1bb" class="card-img-top" alt="Membresía mensual">
+          <div class="card-body">
+            <h5 class="card-title">Membresía Mensual</h5>
+            <p class="card-text">Acceso ilimitado al gimnasio, clases dirigidas y uso de instalaciones.</p>
+            <p class="fw-bold">€49.99</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1571019613914-85f342c40b7b" class="card-img-top" alt="Camiseta PowerGym">
+          <div class="card-body">
+            <h5 class="card-title">Camiseta Oficial</h5>
+            <p class="card-text">Camiseta técnica con el logo del gimnasio. Ligera, transpirable y cómoda.</p>
+            <p class="fw-bold">€19.99</p>
+            <a href="#" class="btn btn-dark">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1571019614097-1410ec3fdf36" class="card-img-top" alt="Clase personal">
+          <div class="card-body">
+            <h5 class="card-title">Clase Personal</h5>
+            <p class="card-text">1 hora con un entrenador profesional para trabajar técnica, fuerza y táctica.</p>
+            <p class="fw-bold">€24.99</p>
+            <a href="#" class="btn btn-dark">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1580658162407-bfeaa36f4e0e" class="card-img-top" alt="Cuerda de entrenamiento">
+          <div class="card-body">
+            <h5 class="card-title">Cuerda Cross Training</h5>
+            <p class="card-text">Resistencia extrema para mejorar agilidad y cardio.</p>
+            <p class="fw-bold">€14.99</p>
+            <a href="#" class="btn btn-dark">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1581009146145-d65bdc99ff8b" class="card-img-top" alt="Saco de boxeo">
+          <div class="card-body">
+            <h5 class="card-title">Saco Power 100kg</h5>
+            <p class="card-text">Saco profesional para potencia, técnica y velocidad. Resistente y duradero.</p>
+            <p class="fw-bold">€89.99</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 7 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1575127811215-1c05a964f833" class="card-img-top" alt="Clases grupales">
+          <div class="card-body">
+            <h5 class="card-title">Clase Grupal de Boxeo</h5>
+            <p class="card-text">Clases en grupo con música y entrenador, ideal para quemar calorías y socializar.</p>
+            <p class="fw-bold">€9.99</p>
+            <a href="#" class="btn btn-dark">Reservar plaza</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 8 -->
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1584467735903-04a5a9f2c89e" class="card-img-top" alt="Tobilleras deportivas">
+          <div class="card-body">
+            <h5 class="card-title">Tobilleras Deportivas</h5>
+            <p class="card-text">Soporte y protección durante entrenamientos de impacto. Talla única.</p>
+            <p class="fw-bold">€12.99</p>
+            <a href="#" class="btn btn-dark">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
