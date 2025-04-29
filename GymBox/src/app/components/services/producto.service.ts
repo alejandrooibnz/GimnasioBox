@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ProductoService } from '../services/producto.service';
 import { Producto } from '../interfaces/producto';
 
 @Component({
@@ -13,8 +12,8 @@ export class ProductoComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private productoService: ProductoService
-  ) {}
+    private servicio: ProductoService
+  ) { }
 
   ngOnInit(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
@@ -24,9 +23,9 @@ export class ProductoComponent implements OnInit {
   }
 
 }
-getProductoPorId(id: number): Observable<Producto> {
-    return this.getProductos().pipe(
-      map(productos => productos.find(p => p.id === id)!)
-    );
-  }
-  import { map } from 'rxjs/operators';
+getProductoPorId(id: number): Observable < Producto > {
+  return this.getProductos().pipe(
+    map(productos => productos.find(p => p.id === id)!)
+  );
+}
+import { map } from 'rxjs/operators';
